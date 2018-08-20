@@ -1,0 +1,223 @@
+
+August 19th 2018, 9:10:23 pm
+{
+  "tracks": {
+    "href": "https://api.spotify.com/v1/search?query=beverly+hills&type=track&offset=0&limit=1",
+    "items": [
+      {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/3jOstUTkEu2JkjvRdBA5Gu"
+              },
+              "href": "https://api.spotify.com/v1/artists/3jOstUTkEu2JkjvRdBA5Gu",
+              "id": "3jOstUTkEu2JkjvRdBA5Gu",
+              "name": "Weezer",
+              "type": "artist",
+              "uri": "spotify:artist:3jOstUTkEu2JkjvRdBA5Gu"
+            }
+          ],
+          "available_markets": [
+            "AD",
+            "AR",
+            "AT",
+            "AU",
+            "BE",
+            "BG",
+            "BO",
+            "BR",
+            "CA",
+            "CH",
+            "CL",
+            "CO",
+            "CR",
+            "CY",
+            "CZ",
+            "DE",
+            "DK",
+            "DO",
+            "EC",
+            "EE",
+            "ES",
+            "FI",
+            "FR",
+            "GB",
+            "GR",
+            "GT",
+            "HK",
+            "HN",
+            "HU",
+            "ID",
+            "IE",
+            "IL",
+            "IS",
+            "IT",
+            "JP",
+            "LI",
+            "LT",
+            "LU",
+            "LV",
+            "MC",
+            "MT",
+            "MX",
+            "MY",
+            "NI",
+            "NL",
+            "NO",
+            "NZ",
+            "PA",
+            "PE",
+            "PH",
+            "PL",
+            "PT",
+            "PY",
+            "RO",
+            "SE",
+            "SG",
+            "SK",
+            "SV",
+            "TH",
+            "TR",
+            "TW",
+            "US",
+            "UY",
+            "VN",
+            "ZA"
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/4D8A8M0NJjEdQhusawyeDz"
+          },
+          "href": "https://api.spotify.com/v1/albums/4D8A8M0NJjEdQhusawyeDz",
+          "id": "4D8A8M0NJjEdQhusawyeDz",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/4cb2d2eec05c76ed934e44cb070e44d987289594",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/825eb9d45255e1e0a58796b382e57002f94c2816",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/8cae141c739e33a377b5b6442dd6a30e7c33fe0f",
+              "width": 64
+            }
+          ],
+          "name": "Make Believe",
+          "release_date": "2005-05-10",
+          "release_date_precision": "day",
+          "total_tracks": 12,
+          "type": "album",
+          "uri": "spotify:album:4D8A8M0NJjEdQhusawyeDz"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3jOstUTkEu2JkjvRdBA5Gu"
+            },
+            "href": "https://api.spotify.com/v1/artists/3jOstUTkEu2JkjvRdBA5Gu",
+            "id": "3jOstUTkEu2JkjvRdBA5Gu",
+            "name": "Weezer",
+            "type": "artist",
+            "uri": "spotify:artist:3jOstUTkEu2JkjvRdBA5Gu"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AR",
+          "AT",
+          "AU",
+          "BE",
+          "BG",
+          "BO",
+          "BR",
+          "CA",
+          "CH",
+          "CL",
+          "CO",
+          "CR",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "DO",
+          "EC",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "GT",
+          "HK",
+          "HN",
+          "HU",
+          "ID",
+          "IE",
+          "IL",
+          "IS",
+          "IT",
+          "JP",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MC",
+          "MT",
+          "MX",
+          "MY",
+          "NI",
+          "NL",
+          "NO",
+          "NZ",
+          "PA",
+          "PE",
+          "PH",
+          "PL",
+          "PT",
+          "PY",
+          "RO",
+          "SE",
+          "SG",
+          "SK",
+          "SV",
+          "TH",
+          "TR",
+          "TW",
+          "US",
+          "UY",
+          "VN",
+          "ZA"
+        ],
+        "disc_number": 1,
+        "duration_ms": 196093,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "USIR10500448"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1yKu2MhpwzDXXH2tzG6xoa"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1yKu2MhpwzDXXH2tzG6xoa",
+        "id": "1yKu2MhpwzDXXH2tzG6xoa",
+        "is_local": false,
+        "name": "Beverly Hills",
+        "popularity": 65,
+        "preview_url": null,
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:1yKu2MhpwzDXXH2tzG6xoa"
+      }
+    ],
+    "limit": 1,
+    "next": "https://api.spotify.com/v1/search?query=beverly+hills&type=track&offset=1&limit=1",
+    "offset": 0,
+    "previous": null,
+    "total": 1973
+  }
+}
