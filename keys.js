@@ -7,3 +7,6 @@ exports.movies = {
   apikey: process.env.OMDB_APIKEY,
 };
 
+exports.bands = {
+  apikey: process.env.BANDS_APIKEY,
+};

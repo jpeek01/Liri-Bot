@@ -1,0 +1,24 @@
+C:\Users\James\Desktop\bootcamp\gitlab\SMDA201806ONLINE1-Class-Repository-ONLINE\01-Class-Content\11-js-constructors\01-Activities\08-TeamManager\README.md
+
+
+
+tracks.itmes.
+
+tracks.itmes.artists.name
+tracks.itmes.albumn.name
+tracks.itmes.name
+tracks.itmes.track_number
+tracks.itmes.duration
+tracks.itmes.preview_url
+
+
+
+
+
+Artist(s)
+
+The song's name
+
+A preview link of the song from Spotify
+
+The album that the song is from

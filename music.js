@@ -12,7 +12,7 @@ const Spotify = require('node-spotify-api');
 const spotify = new Spotify(keys.spotify);
 
 function GetTrack(userQuery) {
-    spotify.search({type: 'track', query: userQuery, limit: 1}, function(err, data) {
+    spotify.search({type: 'track', query: userQuery, limit: 5}, function(err, data) {
         if (err) {
             fs.appendFile('error.log', now + ' Error occurred: ' + err, function(err) {});
             return console.log('An error occurred. Please try again');
@@ -22,19 +22,34 @@ function GetTrack(userQuery) {
             // console.log("Response written to file");
         });
 
-        var trackName = data.tracks.items[0].name;
-        var trackArtistName = data.tracks.items[0].artists[0].name;
-        var trackAlbumName = data.tracks.items[0].album.name;
-        var trackNumber = data.tracks.items[0].track_number;
-        var previewURL = data.tracks.items[0].preview_url;
+        var i = 1;
+
+        for (key in data.tracks.items) {
+            var trackName = data.tracks.items[key].name;
+            var trackArtistName = data.tracks.items[key].artists[0].name;
+            var trackAlbumName = data.tracks.items[key].album.name;
+            var trackNumber = data.tracks.items[key].track_number;
+            var previewURL = data.tracks.items[key].preview_url;
+
+            if (!previewURL) {
+                previewURL = 'Not Available';
+            }
+
+            console.log('Song Name: ' + trackName);
+            console.log('Artist Name: ' + trackArtistName);
+            console.log('Album Name: ' + trackAlbumName);
+            console.log('Track number: ' + trackNumber);
+            console.log('Preview link: ' + previewURL);
+
+            console.log('\n--------------- Song '+ i + ' ---------------\n')
+
+            i++
+
+        }
 
         // console.log(JSON.stringify(trackArtist,null,2));
 
-        console.log('Song Name: ' + trackName);
-        console.log('Artist Name: ' + trackArtistName);
-        console.log('Album Name: ' + trackAlbumName);
-        console.log('Track number: ' + trackNumber);
-        console.log('Preview link: ' + previewURL);
+
       });
 }
 
