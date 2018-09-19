@@ -20,7 +20,4 @@ From the command line type the following commands
     * CLI: node liri concert-this [Band name]
     * Example: node liri spotify-this-song Metallica
 
-###If multiple songs exist then Spotify will return them and Liri will display all of them.
-###If concerts/venues exist for a Band then Bands In Town will return them and Liri will display all of them.
-###The Open Movie Database will only return the most recenct movie based on the name submitted
 
